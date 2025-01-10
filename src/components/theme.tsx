@@ -1,6 +1,6 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import '@/css/theme.css'; // Use absolute imports if configured
-import type { AppProps } from 'next/app';
+// import type { AppProps } from 'next/app';
 export function Sectiontheme() {
     return (
         <section className="years_theme">

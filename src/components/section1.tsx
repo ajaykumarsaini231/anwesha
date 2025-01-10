@@ -1,6 +1,6 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import '@/css/section1.css'; // Use absolute imports if configured
-import type { AppProps } from 'next/app';
+// import type { AppProps } from 'next/app';
 export function Section1() {
     return (
     <section className='section'>

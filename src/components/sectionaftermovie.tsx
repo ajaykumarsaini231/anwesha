@@ -1,6 +1,6 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import '@/css/sectionaftermovie.css'; // Use absolute imports if configured
-import type { AppProps } from 'next/app';
+// import type { AppProps } from 'next/app';
 export function Sectionaftermovie() {
     return (  <section className="aftermovie"> 
         <div className="aftermovietext">
