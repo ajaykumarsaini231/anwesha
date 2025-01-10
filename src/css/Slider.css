@@ -1,0 +1,15 @@
+.sliderContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.slideImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

@@ -1,0 +1,87 @@
+.years_theme{
+    background: #000300;
+    align-self: stretch;
+}
+.text_years_theme {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.years-content{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+.text_years_theme h1{
+    color: var(--Color-Primary500, #50FF00);
+text-align: center;
+/* SF/SF - 64 Reg */
+font-family: "SF Ironsides";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 64px */
+text-transform: uppercase;
+}
+
+.text_years_theme p{
+    color: #FFF;
+
+text-align: center;
+/* AN/AN - 24 */
+font-family: AnavioSmallCapitalsW01-Bold;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.year-content_image{
+    width: 626px;
+height: 626px;
+flex-shrink: 0;
+background: url("/pics/image407.png") lightgray 50% / cover no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: 110%;
+}
+
+.year-content_image img{ 
+ width: 474.386px;
+height: 474.386px;
+flex-shrink: 0;
+}
+
+.paragram-years-text{
+    height: 240px;
+    width: 618px;
+}
+
+.paragram-years-text p{
+    color: #FFF;
+
+    text-align: justify;
+    /* La/La - 20 Reg */
+    font-family: Laila;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+.paragram-years-text p span{
+    color: var(--Color-Primary500, #50FF00);
+    /* La/La - 20 Reg */
+    font-family: Laila;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}

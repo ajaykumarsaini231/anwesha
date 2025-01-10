@@ -1,0 +1,104 @@
+
+
+/* Ensure the Swiper container takes up the full width */
+.mySwiper {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;  /* Needed for positioning the navigation buttons */
+  }
+  
+  /* Style each individual slide */
+  .box-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;  /* Ensure the height adjusts properly */
+    background-color: #f0f0f0; /* Light background for contrast */
+    border-radius: 10px;       /* Optional rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+    text-align: center;
+    width: 123.2px !important;
+    margin-right: 20px;
+  }
+  
+  /* Center the logos inside each slide */
+  .logo {
+    width: 123px;   /* Logo width */
+    height: 116px;  /* Logo height */
+    object-fit: contain; /* Maintain logo aspect ratio */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+  }
+  
+  /* Optional hover effect to zoom logos */
+  .box-slide:hover .logo {
+    transform: scale(1.1);
+  }
+  
+  /* Style for the navigation buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);  /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 0;  /* Initially hide the buttons */
+    transition: opacity 0.3s ease;  /* Smooth fade-in transition */
+  }
+  
+  /* Show the navigation buttons when hovering over the swiper container */
+  .mySwiper:hover .swiper-button-next,
+  .mySwiper:hover .swiper-button-prev {
+    opacity: 1;  /* Make buttons visible on hover */
+  }
+  
+  /* Adjust position for the next and previous buttons */
+  .swiper-button-next {
+    right: 10px;  /* Position the "next" button on the right */
+  }
+  
+  .swiper-button-prev {
+    left: 10px;   /* Position the "prev" button on the left */
+  }
+  
+  /* Style the pagination dots (if used) */
+  .swiper-pagination {
+    bottom: 10px;  /* Position the dots at the bottom */
+    text-align: center;
+  }
+  
+  .swiper-pagination-bullet {
+    background: #333;  /* Change color of the dots */
+    width: 10px;
+    height: 10px;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #007bff;  /* Color of the active dot */
+  }
+  
+  .swiper-pagination-bullets{
+    display: none;
+  }
+
+/* Show the scrollbar but keep the infinite loop behavior */
+.mySwiper {
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+  
+  /* Optional: Style for scrollbar for a custom appearance */
+  /* .mySwiper::-webkit-scrollbar {
+    height: 8px; Set height of the scrollbar
+  } */
+  
+  
+  
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
