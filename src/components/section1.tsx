@@ -1,4 +1,4 @@
-// import Image from 'next/image';
+import Image from 'next/image';
 import '@/css/section1.css'; // Use absolute imports if configured
 // import type { AppProps } from 'next/app';
 export function Section1() {
@@ -8,16 +8,16 @@ export function Section1() {
         <div className="home">
             <div className="circle">
                 <div className="skull">
-                    <img className="anwesha" src="./pics/WhatsApp Image 2022-09-05 at 11 1 (Traced).svg" alt=""/>
+                    <Image className="anwesha" src="./pics/WhatsApp Image 2022-09-05 at 11 1 (Traced).svg" alt=""/>
 
-                    <img className="skullhead" src="./pics/skull.png" alt=""/>
-                    <img className="right eye" src="./pics/Vector 1906.svg" alt=""/>
-                    <img className="left eye" src="./pics/Vector 1906.svg" alt=""/>
+                    <Image className="skullhead" src="./pics/skull.png" alt=""/>
+                    <Image className="right eye" src="./pics/Vector 1906.svg" alt=""/>
+                    <Image className="left eye" src="./pics/Vector 1906.svg" alt=""/>
                 </div>
                
 
                 <div className="button">
-                    <img src="/pics/Subtract.png" alt=""/>
+                    <Image src="/pics/Subtract.png" alt=""/>
                     <button>REGISTER</button>
                 </div>
                 <div className="welcometext">

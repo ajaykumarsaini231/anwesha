@@ -2,7 +2,7 @@
 import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import Image from 'next/image';
+import Image from 'next/image';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -26,40 +26,40 @@ export default function Carousel() {
         className="mySwiper"
       >
         <SwiperSlide className="box-slide">
-          <img src="./pics/state_bank_of_india_icon.jpeg.png" alt="Logo 1" className="logo" />
+          <Image src="./pics/state_bank_of_india_icon.jpeg.png" alt="Logo 1" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/Icon.jpeg.png" alt="Logo 2" className="logo" />
+          <Image src="./pics/Icon.jpeg.png" alt="Logo 2" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/Icon.png.png" alt="Logo 3" className="logo" />
+          <Image src="./pics/Icon.png.png" alt="Logo 3" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/state_bank_of_india_icon.jpeg.png" alt="Logo 1" className="logo" />
+          <Image src="./pics/state_bank_of_india_icon.jpeg.png" alt="Logo 1" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/Icon.jpeg.png" alt="Logo 2" className="logo" />
+          <Image src="./pics/Icon.jpeg.png" alt="Logo 2" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/Icon.png.png" alt="Logo 3" className="logo" />
+          <Image src="./pics/Icon.png.png" alt="Logo 3" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/state_bank_of_india_icon.jpeg.png" alt="Logo 1" className="logo" />
+          <Image src="./pics/state_bank_of_india_icon.jpeg.png" alt="Logo 1" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/Icon.jpeg.png" alt="Logo 2" className="logo" />
+          <Image src="./pics/Icon.jpeg.png" alt="Logo 2" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/Icon.png.png" alt="Logo 3" className="logo" />
+          <Image src="./pics/Icon.png.png" alt="Logo 3" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/state_bank_of_india_icon.jpeg.png" alt="Logo 1" className="logo" />
+          <Image src="./pics/state_bank_of_india_icon.jpeg.png" alt="Logo 1" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/Icon.jpeg.png" alt="Logo 2" className="logo" />
+          <Image src="./pics/Icon.jpeg.png" alt="Logo 2" className="logo" />
         </SwiperSlide>
         <SwiperSlide className="box-slide">
-          <img src="./pics/Icon.png.png" alt="Logo 3" className="logo" />
+          <Image src="./pics/Icon.png.png" alt="Logo 3" className="logo" />
         </SwiperSlide>
        
       </Swiper>
